@@ -1,0 +1,38 @@
+/*-----------------------------------------------------------------------------------
+    Color Accents - Energix Solar & Renewable Energy
+-----------------------------------------------------------------------------------*/
+
+.color-primary { color: #0A9642 !important; }
+.color-secondary { color: #FE5716 !important; }
+.color-navy { color: #17195A !important; }
+
+.bg-primary-theme { background-color: #0A9642 !important; }
+.bg-secondary-theme { background-color: #FE5716 !important; }
+.bg-navy-theme { background-color: #17195A !important; }
+
+.history h2,
+.call-for.mail-for a:hover,
+.solar-system span,
+ul.information li h6,
+li.navbar-dropdown:hover > a,
+.our-blog-text > a:hover,
+.our-blog-text h2:hover,
+.blog-details-text h2,
+.share-this li a:hover,
+.blog-text h4:hover,
+.use-energix a h4:hover,
+.sectors a:hover,
+.request-quote-info a p:hover,
+.navbar-links li > a:hover,
+.recent-projects-text h6,
+.recent-projects-text h5:hover,
+.solar-energy span {
+  color: #0A9642;
+}
+
+.button:hover,
+.recent-projects-text a:hover h5,
+.top-bar-mail a:hover p,
+.footer-social-media li a:hover {
+  color: #FE5716;
+}

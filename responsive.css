@@ -1,0 +1,184 @@
+/*-----------------------------------------------------------------------------------
+    Responsive Stylesheet - Energix Solar & Renewable Energy
+-----------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 2400px) and (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .gap {
+    padding: 80px 0;
+  }
+  h1 { font-size: 54px; line-height: 64px; }
+  h2 { font-size: 44px; line-height: 54px; }
+  .heading h2 { font-size: 40px; line-height: 50px; }
+  
+  .hero-slide {
+    padding: 180px 0 130px 0;
+    min-height: 680px;
+  }
+  .featured-area-one h2 {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  .hero-slide::before {
+    width: 800px;
+    height: 650px;
+  }
+  .battery-storage.two img {
+    height: 500px;
+  }
+  .count-title-text h2, .count-title-text span {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar-links li > a {
+    padding: 8px 12px;
+    font-size: 15px;
+  }
+  .menu-bar {
+    padding: 10px 14px 10px 20px;
+  }
+  .header-button {
+    padding: 14px 22px;
+    font-size: 14px;
+  }
+  .project-card {
+    min-width: calc(50% - 13px);
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-links, .search-style {
+    display: none !important;
+  }
+  .bar-menu {
+    display: block;
+  }
+  .menu-bar {
+    border-radius: 40px;
+    margin-top: -30px;
+    padding: 12px 20px;
+  }
+  .top-bar {
+    padding-bottom: 45px;
+  }
+  .top-bar-text {
+    justify-content: center;
+  }
+  .hero-slide {
+    padding: 150px 0 100px 0;
+    min-height: 550px;
+    text-align: center;
+  }
+  .featured-area-one {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .slider-nav-arrows {
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 30px;
+  }
+  .hero-slide::before {
+    width: 120%;
+    left: -10%;
+    top: -5%;
+  }
+  .renewable-group {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .battery-storage.two img {
+    height: 300px;
+  }
+  .count-title-text {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .project-card {
+    min-width: 100%;
+  }
+  .request-quote {
+    padding: 50px 30px;
+  }
+  .request-quote .heading {
+    margin-bottom: 30px;
+  }
+  .video-card-wrap {
+    margin-top: 40px;
+  }
+  .about-img {
+    margin-top: 50px;
+  }
+  .about-img img {
+    width: 100%;
+  }
+  .about-img img.img-about {
+    display: none;
+  }
+  .about-two-content {
+    position: static;
+    margin-top: 20px;
+    display: inline-flex;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .gap {
+    padding: 60px 0;
+  }
+  h1 { font-size: 38px; line-height: 48px; }
+  h2 { font-size: 32px; line-height: 42px; }
+  .heading h2 { font-size: 30px; line-height: 40px; }
+  .featured-area-one h2 { font-size: 32px; line-height: 42px; }
+  .domestic {
+    margin-bottom: 25px;
+    padding: 40px 25px;
+  }
+  .call-for {
+    min-width: 100%;
+  }
+  .sponsors-wrap {
+    gap: 20px;
+  }
+  .sponsor-logo {
+    height: 35px;
+  }
+  .top-bar-text ul {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .menu-bar .logo svg {
+    max-width: 150px;
+  }
+  .featured-area-one h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .featured-area-one h6 {
+    font-size: 15px;
+  }
+  .button {
+    padding: 14px 28px;
+    font-size: 14px;
+  }
+  .latterbox {
+    padding: 25px 20px;
+  }
+  .quick-contacts {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
